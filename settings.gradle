@@ -1,2 +1,3 @@
 include ':app'
+include ':lib_textview'
 rootProject.name = "MediumBoldTextView"

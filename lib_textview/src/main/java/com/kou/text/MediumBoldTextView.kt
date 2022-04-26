@@ -1,4 +1,4 @@
-package com.yao.textview
+package com.kou.text
 
 import android.content.Context
 import android.graphics.Canvas
@@ -24,12 +24,11 @@ class MediumBoldTextView : AppCompatTextView {
     }
 
     override fun onDraw(canvas: Canvas?) {
-        //获取当前控件的画笔
+        // 获取当前控件的画笔
         val paint = paint
-        //设置画笔的描边宽度值
+        // 设置画笔的描边宽度值
         paint.strokeWidth = strokeWidth
         paint.style = Paint.Style.FILL_AND_STROKE
         super.onDraw(canvas)
     }
-
 }

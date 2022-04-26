@@ -14,7 +14,7 @@
         android:textColor="#000000"
         android:textSize="18sp" />
     <!--中粗字体-->
-    <com.yao.textview.MediumBoldTextView
+    <com.kou.text.MediumBoldTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="难以启齿的柔弱孤单夜里会滑落"
@@ -28,4 +28,13 @@
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <!--自己在代码里设置字体粗细-->
+    <com.kou.text.MediumBoldTextView
+        android:id="@+id/tvCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自己在代码里设置字体粗细"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 </LinearLayout>

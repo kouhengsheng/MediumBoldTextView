@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
     <!--标准粗细的字体-->
     <TextView
+        android:id="@+id/standardTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="难以启齿的柔弱孤单夜里会滑落"
@@ -15,6 +16,7 @@
         android:textSize="18sp" />
     <!--中粗字体-->
     <com.kou.text.MediumBoldTextView
+        android:id="@+id/mediumTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="难以启齿的柔弱孤单夜里会滑落"
@@ -22,12 +24,21 @@
         android:textSize="18sp" />
     <!--粗体-->
     <TextView
+        android:id="@+id/boldTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="难以启齿的柔弱孤单夜里会滑落"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <!--支持emoji表情的textView-->
+    <com.kou.text.EmojiMediumTextView
+        android:id="@+id/emojiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="难以启齿的柔弱孤单夜里会滑落🍃🌹"
+        android:textSize="18sp" />
 
     <!--自己在代码里设置字体粗细-->
     <com.kou.text.MediumBoldTextView
@@ -37,4 +48,9 @@
         android:text="自己在代码里设置字体粗细"
         android:textColor="#000000"
         android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         val emojiTextView = findViewById<EmojiMediumTextView>(R.id.emojiTextView) // 可以显示emoji表情的中粗的textView
         val tvCustom = findViewById<MediumBoldTextView>(R.id.tvCustom) // 可以自己改变粗细的textView
         val editText = findViewById<EditText>(R.id.editText)
-        tvCustom.strokeWidth = 0.1f
+        tvCustom.setStrokeWidth(0.1F)
 
         editText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="MediumBoldTextView">
+        <!--字体线条的描边粗细-->
         <attr name="strokeWidth" format="dimension" />
+        <!--最大字符串长度，超过这个长度后显示...-->
+        <attr name="mediumMaxLength" format="integer" />
     </declare-styleable>
 </resources>
